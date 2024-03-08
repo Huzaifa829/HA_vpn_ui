@@ -1,0 +1,72 @@
+.HA_LandingPagePart7_main_contenair {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10vh 0;
+    width: 100%;
+}
+
+.HA_CardDetailLanding7_main_contrner {
+    width: 32%;
+    min-width: 373.33px;
+    /* height: 100px; */
+    /* background-color: rgb(19, 51, 40); */
+
+}
+
+.HA_LandingPagePart7_main_contenair_child {
+    width: 100%;
+    max-width: 1500px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    /* height: 100px; */
+}
+
+.HA_CardDetailLanding7_main_contrner_heading {
+    color: #0C111E;
+    font-size: 1.8rem;
+    font-weight: 600;
+
+}
+
+.HA_CardDetailLanding7_main_contrner_para {
+    color: #475467;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.HA_LandingPagePart7_main_contenair_child2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FCFCFD;
+    border: 1px solid #EDEFF3;
+    border-radius: 16px;
+    padding: 32px;
+    width: 92%;
+    max-width: 1500px;
+}
+
+.HA_LandingPagePart7_main_contenair_child2_btn_HA {
+    background: rgb(111, 239, 130);
+    background: linear-gradient(90deg, rgba(111, 239, 130, 1) 0%, rgba(25, 162, 119, 1) 100%);
+    border: none;
+    padding: 1px 18px;
+    height: 44px;
+    border-radius: 8px;
+}
+.HA_LandingPagePart7_main_contenair_child2_heading{
+    color: #0C111E;
+    font-size: 2rem;
+    font-weight: 500;
+
+}
+.HA_LandingPagePart7_main_contenair_child2_para{
+    color: #475467;
+    font-size: 1.8rem;
+    font-weight: 400;
+}

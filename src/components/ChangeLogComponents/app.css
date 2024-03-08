@@ -1,0 +1,97 @@
+.main_one {
+  padding-left: 128px;
+  padding-top: 48px;
+  padding-right: 128px
+}
+
+.head_order {
+  color: #00a573;
+}
+
+.decendent {
+  padding-bottom: 64px;
+  font-size: 14px;
+}
+
+.head_logo {
+  font-weight: bold;
+  font-size: 72px;
+  background: linear-gradient(
+    90deg,
+    rgba(111, 239, 130, 1) 0%,
+    rgba(25, 162, 119, 1) 100%
+  );
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent; /* Make the text transparent */
+  font-family: "Inter";
+}
+
+/* .HA_text2 {
+  background: linear-gradient(90deg, rgba(111,239,130,1) 0%, rgba(25,162,119,1) 100%);
+  -webkit-background-clip: text; /* For Safari */
+/* background-clip: text;
+  color: transparent; /* Make the text transparent */
+
+.head-desc {
+  font-size: 18px;
+  color: #475467;
+  padding-bottom: 64px;
+}
+
+.first {
+  padding-top: 64px;
+  display: block;
+}
+.time-line {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.time-line-child {
+  color: black;
+}
+
+.last-card {
+  padding-top: 42px;
+}
+
+.img-last {
+  padding-top: 52px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  /* CSS rules for smaller screens */
+  .main_one {
+    padding: 48px 16px; /* Adjust padding for smaller screens */
+  }
+
+  .head_logo {
+    font-size: 36px; /* Reduce font size for smaller screens */
+  }
+
+  .head-desc {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    margin-bottom: 32px; /* Increase spacing for smaller screens */
+  }
+
+  .time-line {
+    padding-bottom: 24px; /* Add some bottom padding for space */
+  }
+
+  .last-card {
+    padding-top: 24px; /* Adjust spacing for smaller screens */
+  }
+
+  .img-last {
+    width: 100%; /* Ensure image doesn't overflow on small screens */
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .img-last {
+    width: 100%; /* Ensure image doesn't overflow on small screens */
+  }
+}

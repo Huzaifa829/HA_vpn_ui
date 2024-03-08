@@ -1,0 +1,103 @@
+.HA_LandingPagePart6_main_conternar {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10vh 0px;
+    background-color: #EDEFF3;
+}
+
+.HA_PlanCards_main_div {
+    width: 373.33px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 16px;
+    border: 1px solid #c9cacc;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for zoom effect and box shadow */
+}
+
+.HA_PlanCards_main_div:hover {
+    transform: scale(1.1); /* Zoom in effect */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Light gray box shadow on hover */
+}
+
+
+
+.HA_PlanCards_main_div_child1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.HA_2_btn_landing6 {
+    display: flex !important;
+    align-items: center !important;
+    border: 1px solid #19A277 !important;
+    color: #19A277 !important;
+    padding: 1px 5px !important;
+    height: 20px;
+}
+
+.HA_PlanCards_main_div_child1_heading {
+    color: #0C111E;
+    font-weight: 600;
+    font-size: 4.8rem;
+    margin: 0px;
+}
+
+.HA_PlanCards_main_div_child1_heading2 {
+    color: #475467;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.HA_PlanCards_main_div_child1_des {
+    color: #0C111E;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.HA_PlanCards_main_div_child1_des2 {
+    color: #475467;
+    font-weight: 400;
+}
+
+.HA_PlanCards_main_div_child1_1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.HA_LandingPagePart4_main2_child2_plan_main{
+    display: flex;
+    width: 100%;
+    max-width: 1500px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 10vh 0px;
+}
+.HA_PlanCards_main_div_child1_1_text {
+    color: #475467;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.HA_PlanCards_main_div_child1_1_btn {
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #EDEFF3;
+    font-size: 1.6rem;
+    font-weight: 600;
+    transition: background-color 1s, background-image 1s; /* Added transition for background-color and background-image */
+}
+
+.HA_PlanCards_main_div_child1_1_btn:hover {
+    border: none;
+    transition: 1s;
+    background: rgb(111, 239, 130);
+    color: #fff;
+    background: linear-gradient(90deg, rgba(111, 239, 130, 1) 0%, rgba(25, 162, 119, 1) 100%);
+}

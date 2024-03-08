@@ -1,0 +1,98 @@
+.HA_LandingPagePart1_main {
+  width: 100%;
+  padding: 30vh 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../../../assests/images/atom-comp\ [Light].png);
+  background-size: cover;
+  background-repeat: no-repeat; /* Prevent the background from repeating */
+  background-position: center; /* Center the background image */
+  transform: rotate(0deg); /* Rotate the background image */
+}
+
+.HA_text1 {
+  width: max-content;
+  font-size: 7.2rem;
+  font-weight: 600;
+  margin: 0px;
+}
+.HA_text2 {
+  background: linear-gradient(
+    90deg,
+    rgba(111, 239, 130, 1) 0%,
+    rgba(25, 162, 119, 1) 100%
+  );
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent; /* Make the text transparent */
+}
+.HA_text3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  width: 70rem;
+  text-align: center;
+}
+.HA_2_btn_landing {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 3px;
+  border-radius: 5px;
+}
+.HA_2_btn_landing1 {
+  display: flex !important;
+  align-items: center !important;
+  border: 1px solid #19a277 !important;
+  color: #19a277 !important;
+  /* padding: 5px 5px !important; */
+}
+.HA_2_btn_landing2 {
+  padding: 5px; /* Remove default padding */
+  background-color: transparent; /* Remove default background color */
+  border: none; /* Remove default border */
+  cursor: pointer; /* Change cursor to pointer */
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center align items vertically */
+  color: inherit; /* Inherit text color */
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #475467;
+}
+
+.HA_2_btn_landing2_icon {
+  margin-left: 5px; /* Adjust spacing between text and icon */
+  vertical-align: middle; /* Align icon vertically with text */
+  color: #475467 !important;
+}
+.HA_text3 {
+  margin-bottom: 70px;
+}
+@media only screen and (max-width: 700px) {
+/* <<<<<<< HEAD */
+    html {
+        font-size: 50.5% !important;
+    }
+    .HA_text3{
+        width: auto;
+    }
+    .HA_LandingPagePart1_main{
+        padding: 10vh 0;
+    }
+/* ======= */
+  html {
+    font-size: 50.5% !important;
+  }
+  .HA_text3 {
+    width: auto;
+  }
+/* >>>>>>> 0326a21a86c90239798b86f41b9d130a5f442469 */
+}
+@media only screen and (max-width: 455px) {
+  .HA_text1 {
+    font-size: 5rem;
+  }
+  .HA_text3 {
+    font-size: 1.4rem;
+  }
+}

@@ -1,0 +1,49 @@
+.Part-2 {
+  padding-top: 0px;
+  padding-left: 0px;
+}
+
+.root-child {
+  border-radius: 15px;
+  padding: 16px;
+  border: 1px solid #d0d5dd;
+}
+
+.Card-heading {
+  font-weight: 700;
+  font-weight: semi-bold;
+  font-size: 20px;
+}
+
+.head_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: normal;
+}
+
+.jan-2024 {
+  font-size: 12px;
+  color: #475467;
+}
+
+.card-desc {
+  font-size: 16px;
+  color: #475467;
+}
+
+@media (max-width: 768px) {
+  .head_flex {
+    flex-direction: column; /* Stack elements vertically on small screens */
+    align-items: stretch; /* Stretch elements to fill available width */
+    gap: 8px; /* Add spacing between stacked elements */
+  }
+
+  .Card-heading {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+
+  .jan-2024,
+  .card-desc {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
